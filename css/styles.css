@@ -47,6 +47,8 @@ img {
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-logo {
   color: var(--color-secondary);
@@ -147,6 +149,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-color: rgba(46, 47, 66, 0.7);
+  max-width: 1440px;
 
   padding-top: 188px;
   padding-bottom: 188px;
@@ -194,12 +197,13 @@ img {
 }
 .design-sv {
   width: 264px;
-  height: 122px;
+  height: 112px;
   border-radius: 4px;
   background: var(--color-cloud);
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 8px;
 }
 .design-svg {
 }
@@ -304,7 +308,7 @@ img {
   justify-content: center;
   gap: 24px;
   list-style-type: none;
-  justify-content: flex-end;
+  justify-content: center;
 }
 .socials-item {
 }
