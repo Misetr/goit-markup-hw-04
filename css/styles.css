@@ -142,7 +142,7 @@ img {
 
 .solutions {
   background-image: linear-gradient(50deg, rgba(46, 47, 66, 0.7), #2e2f42b2),
-    url(/images/people-office1.jpg);
+    url(../images/people-office1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -309,11 +309,36 @@ img {
 .socials-item {
 }
 .socials-link {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 40px;
   height: 40px;
   border-radius: 50%;
   background-color: var(--color-secondary);
+}
+
+.customers-l {
+  width: 1440px;
+  height: 320px;
+  list-style-type: none;
+  gap: 24px;
+  display: flex;
+  justify-content: center;
+  justify-content: flex-end;
+}
+.Customers-name {
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  margin-top: 120px;
+}
+.customers-iteam {
+  display: inline-block;
 }
 .footer {
   background: var(--color-accent);
@@ -350,7 +375,16 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.Social-footer {
+  display: inline-flex;
+  color: #fff;
+  margin-left: 264px;
+  font-size: 16px;
 
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
 /* portfolio css */
 .portfolio {
   padding-top: 96px;
