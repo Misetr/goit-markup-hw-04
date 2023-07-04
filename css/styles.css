@@ -153,6 +153,7 @@ img {
   background-position: center;
   background-color: rgba(46, 47, 66, 0.7);
   max-width: 1440px;
+  margin: 0 auto;
 
   padding-top: 188px;
   padding-bottom: 188px;
@@ -334,12 +335,9 @@ img {
 }
 .customers-l {
   list-style-type: none;
-
+  gap: 24px;
   display: flex;
-  justify-content: space-between;
-
-  padding-top: 120px;
-  padding-bottom: 120px;
+  justify-content: center;
 }
 .customers-name {
   text-align: center;
