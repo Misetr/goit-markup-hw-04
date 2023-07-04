@@ -334,10 +334,10 @@ img {
 }
 .customers-l {
   list-style-type: none;
-  gap: 24px;
+
   display: flex;
-  justify-content: center;
-  justify-content: flex-end;
+  justify-content: space-between;
+
   padding-top: 120px;
   padding-bottom: 120px;
 }
