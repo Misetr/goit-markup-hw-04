@@ -15,7 +15,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: var(--color-whitee);
-  margin: 0;
 }
 h1,
 h2,
@@ -334,8 +333,6 @@ img {
   padding-bottom: 120px;
 }
 .customers-l {
-  width: 1440px;
-  height: 320px;
   list-style-type: none;
   gap: 24px;
   display: flex;
