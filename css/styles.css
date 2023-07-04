@@ -144,7 +144,10 @@ img {
 }
 
 .solutions {
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), #2e2f42b2),
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
     url(../images/people-office1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -326,6 +329,9 @@ img {
 .socials-link:focus {
   background-color: #404bbf;
 }
+.customers {
+  padding-top: 120px;
+}
 .customers-l {
   width: 1440px;
   height: 320px;
@@ -337,7 +343,7 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.Customers-name {
+.customers-name {
   text-align: center;
   font-size: 36px;
   font-style: normal;
